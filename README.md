@@ -1,7 +1,9 @@
 # unarticulate-AEM
-Poorly written script to unpack content create by articulate rise and fix it to work with adobe experience manager filename requirements
+Hastily written script to unpack content created by Articulate Rise and fix it to work with Adobe Experience Manager filename requirements
 
-This script fixes a moment in time issue with Adobe Experience Manager (AEM) where courses generated in Articulate Rise auro-generate file names that are not compatable.Input expects a zip file containing all html and assets (images, etc) and outputs either a generated zip file unless the -n flag is passed. It worked on one course I was supplied, but I make no promises it will work for you. Happy to try to fix bugs if reported. 
+This script fixes a moment in time issue with Adobe Experience Manager (AEM) where courses generated in Articulate Rise auto-generate file names that are not compatable due to character constraints. This script expects a zip file containing all html and assets (images, etc) and outputs a new zip file unless the -n flag is passed. It worked on one course I was supplied, but I make no promises it will work for you. Happy to try to fix bugs if reported. 
+
+This script has been tested on OSX and Linux, I don't have access to a Windows box to try.
 
 If this helps you, feel free to donate to me via venmo/paypal: raindog151[at]gmail[dot]com
 
